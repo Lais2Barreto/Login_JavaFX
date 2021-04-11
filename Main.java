@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Tela de Login");
-        primaryStage.setScene(new Scene(root, 300, 330));
+        primaryStage.setScene(new Scene(root, 263, 392));
         primaryStage.show();
     }
 
